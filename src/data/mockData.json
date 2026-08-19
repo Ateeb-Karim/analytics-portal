@@ -1,0 +1,59 @@
+{
+  "revenue": [
+    { "date": "Day 1", "amount": 120000 },
+    { "date": "Day 5", "amount": 280000 },
+    { "date": "Day 10", "amount": 190000 },
+    { "date": "Day 15", "amount": 420000 },
+    { "date": "Day 20", "amount": 310000 },
+    { "date": "Day 25", "amount": 480000 },
+    { "date": "Day 30", "amount": 390000 }
+  ],
+  "salesByCategory": [
+    { "category": "Cloud", "sales": 4500 },
+    { "category": "Software", "sales": 3800 },
+    { "category": "Consulting", "sales": 3200 },
+    { "category": "Support", "sales": 2100 }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "customer": "Anderson Ltd",
+      "status": "Completed",
+      "region": "Cloud",
+      "revenue": 35.0,
+      "date": "2026-02-20"
+    },
+    {
+      "id": 2,
+      "customer": "Martin Inc",
+      "status": "Pending",
+      "region": "Software",
+      "revenue": 20.0,
+      "date": "2026-02-21"
+    },
+    {
+      "id": 3,
+      "customer": "Ukonatin Co",
+      "status": "Completed",
+      "region": "Consulting",
+      "revenue": 15.0,
+      "date": "2026-02-22"
+    },
+    {
+      "id": 4,
+      "customer": "Moldk Corp",
+      "status": "Failed",
+      "region": "Support",
+      "revenue": 10.0,
+      "date": "2026-02-23"
+    },
+    {
+      "id": 5,
+      "customer": "Sanith LLC",
+      "status": "Completed",
+      "region": "Consulting",
+      "revenue": 35.0,
+      "date": "2026-02-24"
+    }
+  ]
+}
